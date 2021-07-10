@@ -1,0 +1,178 @@
+    1  python -v
+    2  python --version
+    3  pip3 install python-opencv
+    4  pip3 install opencv
+    5  pip3 install opencv-python
+    6  pip install spyder
+    7  pip install Flask
+    8  pip3 list
+    9  echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable/x86_64" | sudo tee -a /etc/pacman.conf
+   10  curl -O https://download.sublimetext.com/sublimehq-pub.gpg && sudo pacman-key --add sublimehq-pub.gpg && sudo pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg
+   11  [200~sudo pacman -Syu sublime-text
+   12  sudo pacman -Syu sublime-text
+   13  ./VNC-Viewer-6.21.406-Linux-x64\ \(2\)/
+   14  ./VNC-Viewer-6.21.406-Linux-x64\ 
+   15  . VNC-Viewer-6.21.406-Linux-x64
+   16  ssh pi@192.168.8.2
+   17  cd Desktop/
+   18  ls
+   19  scp ?
+   20  scp New\ Folder/ pi@192.168.8.2/Desktop
+   21  scp -r New\ Folder/ pi@192.168.8.2/Desktop
+   22  ssh pi@192.168.8.2
+   23  cd New\ Folder/
+   24  pwd
+   25  ifconfig
+   26  ifconfig
+   27  git status
+   28  git init
+   29  git status
+   30  cd final/
+   31  git init
+   32  git status 
+   33  git add .
+   34  git push
+   35  git remote add akuetteh 51 git@github.com:akuetteh51/UI-AiRobot.git
+   36  git remote add akuetteh 51 git@github.com:akuetteh51/UI-AiRobot.git -f
+   37  git remote add -m akuetteh 51 git@github.com:akuetteh51/UI-AiRobot.git 
+   38  git push akuetteh51
+   39  git push 
+   40  git push akuetteh51
+   41  git push --set-upstream akuetteh51 master
+   42  git push --set-upstream akuetteh51 main
+   43  git remote add -m akuetteh 51 git@github.com:akuetteh51/UI-AiRobot.git 
+   44  git push main
+   45  git remote add -m main git@github.com:akuetteh51/UI-AiRobot.git 
+   46  git remote add -m main git@github.com:akuetteh51/UI-AiRobot.git 
+   47  git commit -m "UI-FOR sMART rOBOT"
+   48   git config --global akuetteh51@akuetteh58@gmail.com
+   49   git config --globaluser.email akuetteh51@akuetteh58@gmail.com
+   50   git config --globaluser.email "akuetteh51@akuetteh58@gmail.com"
+   51   git config --globaluser.email "akuetteh51@akuetteh58@gmail.com"
+   52   git config --globaluser.email akuetteh51@akuetteh58@gmail.com
+   53   git config --global akuetteh51@akuetteh58@gmail.com
+   54   git config --global akuetteh51.akuetteh58@gmail.com
+   55  git remote add origin git@github.com:akuetteh51/UI-AiRobot.git
+   56  git remote -v
+   57  git push
+   58  git push -f origin master
+   59  git push origin master --force
+   60  git push origin main
+   61  git push origin master --force -f
+   62  git push origin master -f
+   63  git remote -v
+   64  git remote add origin git@github.com:akuetteh51/UI-AiRobot.git 
+   65  git push origin master -f
+   66  git push origin main --force
+   67  git push -u origin main
+   68  git remote add origin https://github.com/akuetteh51/UI-AiRobot.git
+   69  git push -u -f origin main
+   70  git push github
+   71  git init -b main
+   72  git push github
+   73  git status
+   74  git remote add origin https://github.com/akuetteh51/UI-AiRobot.git
+   75  git push github
+   76  git push -u -f origin main
+   77  git pull
+   78  git pull main
+   79  git push github
+   80  git remote add origin https://github.com/akuetteh51/UI-AiRobot.git
+   81  git push 
+   82  akuetteh51/UI-AiRobot
+   83  git remote add origin git@github.com:akuetteh51/UI-AiRobot.git
+   84  git push 
+   85  git status
+   86  git pull main
+   87  git remote -v
+   88  git push 51 master
+   89  git push 51 m
+   90  git push 51 
+   91  git push origin
+   92   git push --set-upstream origin master
+   93  git remote add origin git@github.com:akuetteh51/UI-AiRobot.git
+   94   git push --set-upstream origin master
+   95   git push --set-upstream origin master
+   96   git remote -v
+   97   git remote rm origin
+   98   git commit -m "new"
+   99  cd git clone git@github.com:akuetteh51/UI-AiRobot.git
+  100   git clone git@github.com:akuetteh51/UI-AiRobot.git
+  101  git init
+  102   git clone git@github.com:akuetteh51/UI-AiRobot.git
+  103  git init
+  104  git add *
+  105  it commit -m 'your commit'
+  106  git remote -v
+  107   git pull -r origin 51 
+  108  git pull -r origin 
+  109  git pull -r origin git@github.com:akuetteh51/UI-AiRobot.git
+  110   git pull -r origin master
+  111   git pull -r origin 51
+  112  git push -u origin 51
+  113  git push -f -u origin 51
+  114  git remote set-url origin git@github.com:akuetteh51/UI-AiRobot.git
+  115  git remote set-url 51 git@github.com:akuetteh51/UI-AiRobot.git
+  116  git push --set-upstream -f origin 51
+  117  git pull --rebase
+  118  git pull origin branch
+  119  git pull 51 branch
+  120  git pull 51 branch
+  121  git status
+  122  cd ..
+  123  cd ..git clone git@github.com:akuetteh51/UI-AiRobot.git 
+  124  git clone git@github.com:akuetteh51/UI-AiRobot.git 
+  125  echo "# UI-AiRobot" >> README.md
+  126  git init
+  127  git add README.md
+  128  git commit -m "first commit"
+  129   git config --global akuetteh51.akuetteh58@gmail.com
+  130   git branch -M main
+  131  git remote add origin git@github.com:akuetteh51/UI-AiRobot.git
+  132  git push -u origin main
+  133  chmod 777 final/
+  134  git push -u origin main
+  135  git push -f -u origin 51
+  136  git remote -v
+  137  git push -f -u origin 51
+  138  git pull --rebase
+  139  git remote add akuetteh 51 git@github.com:akuetteh51/UI-AiRobot.git -f
+  140   git branch -M main 
+  141  ssh pi@192.168.8.2
+  142  ssh pi@192.168.8.2
+  143  ssh pi@192.168.8.2
+  144  clear
+  145  ssh pi@192.168.8.2
+  146  ssh pi@192.168.8.2
+  147  ssh pi@192.168.8.2
+  148  ssh pi@192.168.8.2
+  149  openssh-server
+  150  sudo service ssh status 
+  151   sudo systemctl status sshd.service
+  152  sudo nano /etc/ssh/sshd_config
+  153  sudo systemctl enable sshd.service
+  154   sudo systemctl start sshd.service
+  155  ssh nhanaqwahme@192.168.8.100
+  156  ifconfig
+  157  /etc/ssh/sshd_config
+  158  sudo /etc/ssh/sshd_config
+  159  iptables
+  160  iptables -h
+  161  clear
+  162  sudo iptables -A INPUT -p tcp --dport ssh -j ACCEPT
+  163  ssh pi@192.168.8.2
+  164  cd Downloads/
+  165  ls
+  166  pwd
+  167  ssh pi@192.168.8.2
+  168  ssh pi@192.168.8.2
+  169  ssh pi@192.168.8.2
+  170  ssh pi@192.168.8.2
+  171  ssh pi@192.168.8.2
+  172  ssh pi@192.168.8.2
+  173  ssh pi@192.168.8.2
+  174  [200~sudo pacman -S i3-wm
+  175  sudo pacman -S i3-wm
+  176  cd Desktop/history >history.txt
+  177  cd Desktop/
+  178  history > history.txt

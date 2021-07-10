@@ -1,0 +1,57 @@
+<!Doctype html>
+<html>
+<head>
+<title>NEW</title>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="{{url_for('static',filename='jquery-3.6.0.min.js')}}"></script>
+        <script src="{{url_for('static',filename='script.js')}}"></script>
+	<style>
+body {
+  background-image:url({{url_for('static',filename='canvas.png')}});
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-attachment: fixed;
+  background-position: center; 
+}
+
+.btn:hover {background-color: #3e8e41}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+</head>
+<body>
+    <div class="container">
+            <div class="row" style="position:  fixed;" >
+            	   <!-- left control -->
+<img src="{{url_for('static',filename='button.png')}}", style="position:  relative;">
+<button type="button" class="btn" id="forward" style="position:absolute; top:182px; left: 105px; background-color: #404040; color: #079295; border-bottom: none; margin-top: 4px;  margin-bottom: 0px; border-radius: 20px; font-size: 25px; box-shadow: 0 7px #999;"  >Forward</button>
+<button type="button" class="btn" id="leftward" style="position:absolute; top:224px; left: 221px; background-color: #2a2a2a; color: #079295; border-bottom: none;   font-size: 22px; writing-mode: vertical-lr; border-radius: 20px; box-shadow: 0 7px #999;"  >leftward</button>
+
+<button type="button" class="btn" id="turnOnBtn" style="position:absolute; top:225px; left: 70px; background-color:#3c3c3c; color: #079295;  border-bottom: none; font-size: 22px;  writing-mode: vertical-lr; border-radius:320px; box-shadow: 0 7px #999; padding-right: 0px; " >rightward </button>
+
+<!---Streaming Video--->
+<button type="button" class=""btn id="turnOnBtn" style="position:absolute; top:345px; left: 105px; background-color:#1e1e1e; color: #079295; border-top: none; font-size: 20px; border-radius: 20px; box-shadow: 0 9px #999; box-shadow: 0 7px #999;"  >backward</button>
+<div style=" border: 5px solid white;background-color: #1e1e1e; ; height:94%;
+width: 235%; position:absolute; top: 10px;left: 278px;">  <img src="{{ url_for('video_feed') }}"></div>
+                
+                <!-- right control -->
+                <button type="button" class="btn" id="turnOnBtn" style="position:absolute; top:182px; left: 1105px; background-color: #404040; color: #079295; border: none; margin-top: 4px;  margin-bottom: 0px; border-radius: 20px; font-size: 25px; height: 90px; width: 90px; border-radius:50%; border:5px solid white; box-shadow: 0 9px #999;  "  >speed</button>
+<button type="button" class="btn" id="spd" style="position:absolute; top:265px; left: 1056px; border: none;margin: none; height: 90px; width: 90px; border-radius:50%; border:5px solid white; background-color:#3c3c3c;  color: #079295; box-shadow: 0 9px #999;  font-size: 25px;">slow</button>
+
+<button type="button" class="btn" id="turnOnBtn" style="position:absolute; top:265px; left: 1150px; background-color:#3c3c3c; color: #079295;  font-size: 22px; height: 90px; width: 90px; border-radius:50%; border:5px solid white; box-shadow: 0 9px #999;  " >speak </button>
+
+<button type="button" class="btn" id="turnOnBtn" style="position:absolute; top:351px; left: 1103px; background-color:#3c3c3c; color: red;  font-size: 22px; height: 90px; width: 90px; border-radius:50%; border:5px solid white; box-shadow: 0 9px #999;  " >stop </button>
+
+
+
+            </div>
+        </div>
+        
+
+</body>
+</html>
